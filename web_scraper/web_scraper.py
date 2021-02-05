@@ -9,5 +9,5 @@ response = req.get(url)
 content = response.content
 print(content)
 
-# soup = bs(content,'html.parser' )
-# print(soup.prettify())
+soup = bs(content,'html.parser' )
+print(soup.prettify())
